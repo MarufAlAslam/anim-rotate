@@ -1,0 +1,41 @@
+
+
+.container{
+				display:block;
+				padding:200px;
+				position:relative;
+				}
+.a{
+background:red;
+height:400px;
+width:400px;
+margin:auto;
+position:absolute;
+transition:all 7s ease-in-out;
+animation:aanime 7s infinite linear;
+}
+
+.b{
+background:green;
+height:320px;
+width:320px;
+margin:40px;
+position:absolute;
+transition:all 5s ease-in-out;
+animation:aanime 5s infinite linear;
+}
+
+.c{
+background:blue;
+height:260px;
+width:260px;
+margin:30px;
+transition:all 3s ease-in-out;
+animation:aanime 3s infinite linear;
+}
+
+@keyframes aanime{
+0%{transform:rotate(0deg);}
+50%{transform:rotate(180deg);}
+100%{transform:rotate(360deg);}
+}
